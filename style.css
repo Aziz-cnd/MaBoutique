@@ -1,0 +1,77 @@
+/* Style global */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* En-tête */
+header {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Section Héros avec une image en arrière-plan */
+.hero {
+  height: 80vh; /* La hauteur est de 100% de la hauteur de l'écran */
+  background-image: url('./img/close-up-boxer-bandaging-hands.jpg'); /* Chemin vers l'image */
+  background-size: cover; /* L'image couvre toute la zone */
+  background-position: center; /* Centrer l'image */
+  background-repeat: no-repeat; /* Empêcher la répétition de l'image */
+  display: flex; /* Utilisation de flexbox pour l'alignement */
+  align-items: center; /* Centre verticalement le contenu */
+  justify-content: center; /* Centre horizontalement le contenu */
+  text-align: center; /* Centre le texte */
+  color: white; /* Met le texte en blanc pour plus de visibilité */
+}
+
+/* Contenu à l'intérieur de .hero */
+.hero-content {
+  text-align: center; /* Assurez-vous que le texte dans cette section est centré */
+}
+
+/* Style du texte dans la section héros */
+.hero h1 {
+  font-size: 3rem; /* Taille de police pour le titre */
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.5rem; /* Taille de police pour le texte */
+  margin-bottom: 30px;
+}
+
+/* Style du bouton */
+.btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+
+/* Section Produits */
+#products .card {
+  transition: transform 0.2s;
+}
+
+#products .card:hover {
+  transform: scale(1.05);
+}
+
+/* Pied de page */
+footer .social-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  margin-right: 15px;
+}
+
+footer .social-links a:hover {
+  text-decoration: underline;
+}
